@@ -5,12 +5,215 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hacker Snooze</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+   
 </head>
 <body>
 
-    
+<div class="main">
 
+    <!--Header-->
+<div class="header">
+    <h1>Hacker Snooze</h1>
+    <p>November 2022</p>
+  </div>
+<br>
+
+<!--Hero carousel-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="https://www.kite.com/blog/product/kite-is-saying-farewell/"><img src="https://www.kite.com/wp-content/uploads/2019/10/IMG_4936-1024x683.jpeg" class="d-block w-100" alt="kite"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kite is saying farewell</h5>
+          <p>The start-up will now have all open source code.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://pikuma.com/images/blog/what-is-dos4gw-protected-mode/thumbnail-990x540.jpg" class="d-block w-100" alt="Pikuma">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Pikuma.com</h5>
+          <p>What is dos4gw proteded mode?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.fastcompany.net/image/upload/w_937,ar_16:9,c_fill,g_auto,f_auto,q_auto,fl_lossy/wp-cms/uploads/2019/09/p-1-90407740-why-i-hate-living-in-a-tiny-house.webp" class="d-block w-100" alt="Tiny House">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>I Hate Living in My Tiny House!</h5>
+          <p>Find out why.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<br>
+
+
+<!--Cards Grid-->
+<h2 id="sub-header">Other Stories</h2>
+<div id="cards">
+    <!--<div id="screenview">0</div>-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                    <img src="https://images.wsj.net/im-665881?width=540&size=1.5005861664712778" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Marijuana May Hurt Smokers More Than Cigarettes Alone</h5>
+                      <p class="card-text">A study published Tuesday in the journal Radiology demonstrated higher rates of conditions...</p>
+                      <a href="https://www.wsj.com/articles/marijuana-may-hurt-smokers-more-than-cigarettes-alone-11668517007" class="btn btn-primary">Read Story</a>
+                    </div>
+                </div>
+                </div>
+              
+            
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://astrid.tech/_/2022/07/07/0/opening-attempt-1.jpg" class="card-img-top" alt="Amazon Mini Cam">
+                <div class="card-body">
+                  <h5 class="card-title">Disassembling an Amazon Blink Mini Camera</h5>
+                  <p class="card-text">Strap in kids, this post is about me physically hacking apart Amazon’s Blink Mini to get access to its firmware!</p>
+                  <a href="https://astrid.tech/2022/07/07/0/blink-mini-disassembly/" class="btn btn-primary">Read Story</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card h-100">
+                    <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/T7P3XB65WZHU3OMB5DBJUWI5DM.jpg&w=860" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Airbnb is more successful than ever. Why is everyone so mad at it?</h5>
+                    <p class="card-text">
+                    Guests are over fees and chores. Hosts say they can’t fill vacancies. But the company keeps cashing in.</p>
+                    <a href="https://www.washingtonpost.com/travel/2022/11/14/airbnb-airbnbust-hosts-fees-chores/" class="btn btn-primary">Read Story</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.cjchilvers.com/content/images/size/w1000/2022/11/Xnapper-2022-11-17-12.50.08.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Just Putting It Out There</h5>
+                <p class="card-text">Back in May 2021, I posted this idea about a guitar design to Twitter, tagging EVH guitars:.</p>
+                <a href="https://www.cjchilvers.com/blog/just-putting-it-out-there/" class="btn btn-primary">Read Story</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://regmedia.co.uk/2022/11/18/supermicro_coolit_server.jpg?x=648&y=363&infer_y=1" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Liquid and immersion is the new cool at Supercomputing ‘22</h5>
+                      <p class="card-text">It's safe to say liquid cooling was a hot topic at the Supercomputing conference in Dallas this week.</p>
+                      <a href="https://www.theregister.com/2022/11/19/liquid_cooling_sc22/" class="btn btn-primary">Read Story</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                <img src="https://upload.wikimedia.org/wikipedia/en/b/b0/Man_of_the_Hole.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Man in the Man</h5>
+                  <p class="card-text">(Portuguese: Índio Tanaru),[3] was an indigenous person who lived alone in the Amazon rainforest.</p>
+                  <a href="https://en.wikipedia.org/wiki/Man_of_the_Hole" class="btn btn-primary">Read Story</a>
+                </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                        <img src="https://fair.org/wp-content/uploads/2022/11/NYT-SBF-e1668883278471-600x323.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">While Crypto Bro Scammed Clients, Reporters Scammed Readers</h5>
+                          <p class="card-text">Today, you probably know who Sam Bankman-Fried and FTX are, and the details of why he and his company are front-page news are emerging at an amazing pace..</p>
+                          <a href="https://fair.org/home/while-crypto-bro-scammed-clients-reporters-scammed-readers" class="btn btn-primary">Read Story</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                    <img src="https://developer-blogs.nvidia.com/wp-content/uploads/2022/08/nvidia-nvlink-nvswitch-4c25-p@2x-1024x576.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Upgrading Multi-GPU Interconnectivity with the Third-Generation NVIDIA NVSwitch</h5>
+                      <p class="card-text">Increasing demands in AI and high-performance computing (HPC) are driving a need for faster, more scalable interconnects with high-speed communication...</p>
+                      <a href="https://developer.nvidia.com/blog/upgrading-multi-gpu-interconnectivity-with-the-third-generation-nvidia-nvswitch/" class="btn btn-primary">Read Story</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                        <img src="https://cdn.24.co.za/files/Cms/General/d/7726/4d320fc110a14928bd17b0f54830a53d.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">South Africa's National Electricity Crisis to Worsen</h5>
+                          <p class="card-text">
+                            Eskom said on Sunday that it has run out of cash to buy diesel and does not plan to order any more until 1 April 2023. 
+                            
+                            The consequence of this will be extreme levels of load...</p>
+                          <a href="https://www.news24.com/fin24/economy/extreme-load-shedding-ahead-as-eskom-diesel-budget-runs-dry-20221120" class="btn btn-primary">Read Story</a>
+                        </div>
+                    </div>
+                </div>
+
+              <div class="col">
+                <div class="card h-100">
+                    <img src="https://spectrum.ieee.org/media-library/a-phot-of-an-outstretched-hand-with-several-transistors-in-the-palm-of-it.png?id=32107129&width=1200&height=918" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">How the First Transistor Worked</h5>
+                      <p class="card-text">Even its inventors didn’t fully understand the point-contact transistor.</p>
+                      <a href="https://spectrum.ieee.org/transistor-history" class="btn btn-primary">Read Story</a>
+                    </div>
+                </div>
+                </div>
+
+              <div class="col">
+                <div class="card h-100">
+                    <img src="https://static01.nyt.com/images/2022/11/15/multimedia/15sp-crafts-glass-inyt2ALT/merlin_215208168_d2914d22-9102-49ea-b269-5010c4c2be71-jumbo.jpg?quality=75&auto=webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Japanese Artist Create Cut Glass From Edo</h5>
+                      <p class="card-text">The traditional technique called edo-kiriko is primarily used for drinking glasses, but it's used to make watch dials, too.</p>
+                      <a href="https://www.nytimes.com/2022/11/14/fashion/craftsmanship-glass-cutting-japan.html" class="btn btn-primary">Read Story</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                    <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/11/Gigapixel_AI_upscaling-640x400.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">“Just a bunch of idiots having fun”—a photo history of the LAN party</h5>
+                      <p class="card-text">"I guess I am thinking a lot about the early 2000s lately, like a lot of people, I think, in their 30s."</p>
+                      <a href="#" class="btn btn-primary">Read Story</a>
+                    </div>
+                </div>
+              </div>
+        </div>
+         
+        
+
+ 
+
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>

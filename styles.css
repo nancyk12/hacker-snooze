@@ -1,73 +1,75 @@
-
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #009688;
+    text-align: center;
+    font-size: 24px;
+    /*color: white;*/
+}
+#navbar {
+    text-align: center;
+}    
 
 body {
-    margin: 5px;
-    background-color: #cccccc;
-   /* background-color: pink;*/
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+}
+.progress {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+    border: 1px solid black;
 }
 
-/*container {
-    width:768px;
-    border: black 2px black;
-}*/
-
-
-.header {
-    text-align: center;
-    align-items: flex-start;
-    padding: 10px;
-    justify-content: space-around;
-    width: 768px;
-
-
-    
+child {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 25px;
+    grid-template-columns: 70% 10% 20%;
+    margin: 4em;
 }
-#sub-header{
-    text-align: center;
-}
-/*.header {
-    margin: 10px;
-}*/
 
-.main {
+.grid-item1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+    border: 1px solid black;
+}
+
+
+.grid-item2{
+    border: 1px solid black;
+}
+.grid-item3{
+    border: 1px solid black;
+}
+
+.container {
+  
     background-color: #ffffff;
-    margin: 0 auto;
-    width: 100%;
-    *max-width: 600px;
-    border-spacing: 0;
-    font-family: sans-serif;
-    color: #4a4a4a;
-    align-items: center;
+    width: 768px;
+    padding: 20px;
+
 }
 
-.carouselExampleCaptions{
-    width: 100%;
+.header{
+    align-items: flex-start;
+    text-align: center;
+    justify-content: space-around;
+    border: black 2px solid;
+    width: auto;
 }
 
-.row-cols-1 .row-cols-md-3 g-4 {
-    margin: 5px;
-    padding: 5px;
-    align-items: center;
+.sub-header{
+    text-align: center;
 }
 
-#cards {
-    align-items: center;
-}
-
-
-
-
-
-/*
-.parent {
-    width: 768;
+.parent{
+    width: 768px;
     padding-left: 20px;
-
 }
 
 .child{
     border: black 2px solid;
-}*/
+}
